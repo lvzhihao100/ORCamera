@@ -1,5 +1,11 @@
 # ORCamera
 #### Android 好用的身份证拍照界面封装
+<figure class="half">
+    <img src="https://upload-images.jianshu.io/upload_images/4179767-ff544b020bb79325.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/360">
+    <img src="https://upload-images.jianshu.io/upload_images/4179767-ff544b020bb79325.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/360">
+</figure>
+
+
 `手持身份证`调用
 ```java
                 Intent intent = new Intent(this, CameraActivity.class);
