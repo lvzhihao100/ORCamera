@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">ORCameraLib</string>
+
+    <string name="camera_permission_required">本功能需要相机权限！</string>
+
 </resources>

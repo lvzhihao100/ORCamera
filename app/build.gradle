@@ -23,9 +23,13 @@ android {
 }
 
 dependencies {
+    ext.anko_version='0.10.5'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
+    implementation "org.jetbrains.anko:anko:$anko_version"
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.12'
+    implementation 'com.tbruyelle.rxpermissions2:rxpermissions:0.9.5@aar'
 
     implementation project(':orcameralib')
 }
